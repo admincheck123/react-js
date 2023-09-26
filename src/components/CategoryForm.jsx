@@ -56,6 +56,12 @@ function CategoryForm(props) {
         <Input />
       </Form.Item>
 
+      <Form.Item label="Trạng thái" name="description1" rules={[
+          { max: 3000, message: 'Tối đa 3000 ký tự' },
+        ]}>
+        <Input />
+      </Form.Item>
+
       {!isHiddenSubmit && (
         <Form.Item wrapperCol={{ offset: 8, span: 16 }}>
           <Button type="primary" htmlType="submit">

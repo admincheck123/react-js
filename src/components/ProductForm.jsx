@@ -121,6 +121,10 @@ function ProductForm(props) {
         <Input />
       </Form.Item>
 
+      <Form.Item label="Trạng thái" name="description1">
+        <Input />
+      </Form.Item>
+
       {!isHiddenSubmit && (
         <Form.Item wrapperCol={{ offset: 8, span: 16 }}>
           <Button type="primary" htmlType="submit">

@@ -197,6 +197,11 @@ export default function Products() {
       dataIndex: 'description',
     },
     {
+      title: 'Trạng thái',
+      key: 'description1',
+      dataIndex: 'description1',
+    },
+    {
       title: 'Hành động',
       key: 'actions',
       width: '1%',
